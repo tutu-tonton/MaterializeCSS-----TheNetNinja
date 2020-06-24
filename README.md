@@ -39,3 +39,8 @@
 
 - `footer` .page-footer, footer-copyright
 
+## 24. Tooltips & Font Awesome
+
+- `tooltip` .tooltipped / data-tooltip="表示させたい文章" / jq記入
+- `fontawesome` 書き方確認
+
