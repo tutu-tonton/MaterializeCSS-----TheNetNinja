@@ -13,11 +13,16 @@
 
 - `sectionクラス`
 - `responsive-img`
-- `responsive オフセットやり方` 12列の内余白ある場合オフセットできる
-- `responsive 要素をpush,pull` 
+- `responsiveオフセットやり方` 12列の内余白ある場合オフセットできる
+- `responsive要素をpush,pull`
 - `画像クリックで拡大` .materialboxed jq記入
 
 ## 19. Parallaxes
 
 - `parallax` parallax-container, parallax, jq記入
+
+## 20. Tabs
+
+- `tabs` ul.tabs > li.tab*タブ数 > リンク先id指定
+- `タブ開閉` jq記入
 

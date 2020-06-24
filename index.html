@@ -1,4 +1,4 @@
-<html lang="en">
+<!-- <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,7 +25,7 @@
 				background-position: center;
 				min-height: 1000px;
 			}
-			@media screen and (max-width: 670px;) {
+			@media screen and (max-width: 670px) {
 				header {
 					min-height: 500px;
 				}
@@ -34,6 +34,13 @@
 			.section {
 				padding-top: 4vw;
 				padding-bottom: 4vw;
+			}
+			.tabs .indicator {
+				background-color: #1a237e;
+			}
+			.tabs .tab a:focus,
+			.tabs .tab a:focus.active {
+				background: transparent;
 			}
 		</style>
 	</head>
@@ -123,6 +130,58 @@
 		<!-- services / tabs -->
 		<!--  -->
 
+		<section class="container section" id="services">
+			<div class="row">
+				<div class="col s12 l4">
+					<h2 class="indigo-text text-darken-4">What I do...</h2>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sed fuga reprehenderit veniam
+						beatae asperiores officia magnam assumenda! Mollitia praesentium dignissimos repellendus impedit
+						similique illo culpa rem corrupti assumenda deserunt?
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, minus, mollitia itaque
+						recusandae accusantium impedit, amet molestias quis facere sed suscipit vel quaerat sit sequi
+						iure incidunt ipsum obcaecati in.
+					</p>
+				</div>
+				<div class="col s12 l6 offset-l2">
+					<!-- tabs -->
+					<ul class="tabs">
+						<li class="tab col s6">
+							<a href="#photography" class="active indigo-text text-darken-4">Photography</a>
+						</li>
+						<li class="tab col s6">
+							<a href="#editing" class="indigo-text text-darken-4">Editing</a>
+						</li>
+					</ul>
+					<div class="col s12" id="photography">
+						<p class="flow-text indigo-text text-darken-4">PHOTOGRAPHY</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, natus dolor voluptas
+							voluptate esse corporis repudiandae earum sapiente, quibusdam maxime
+						</p>
+						<p>
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi labore quo dolores quis
+							tempora corrupti at quam, recusandae omnis distinctio ad hic
+						</p>
+					</div>
+					<div class="col s12" id="editing">
+						<p class="flow-text indigo-text text-darken-4">EDITING</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, natus dolor voluptas
+							voluptate esse corporis repudiandae earum sapiente, quibusdam maxime
+						</p>
+						<p>
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi labore quo dolores quis
+							tempora corrupti at quam
+						</p>
+          </div>
+          </div>
+				</div>
+			</div>  <!-- row -->
+		</section>
+
 		<!--  -->
 		<!-- parallax -->
 		<!--  -->
@@ -149,7 +208,8 @@
 				$('.sidenav').sidenav();
 				$('.materialboxed').materialbox();
 				$('.parallax').parallax();
+				$('.tabs').tabs();
 			});
 		</script>
 	</body>
-</html>
+</html> -->
