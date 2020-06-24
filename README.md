@@ -33,5 +33,9 @@
 
 ## 22. Form#2
 
-- `datepicker` .datepicker jq記入
+- `datepicker` .datepicker, jq記入
+
+## 23. Footers
+
+- `footer` .page-footer, footer-copyright
 
