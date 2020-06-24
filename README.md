@@ -17,3 +17,7 @@
 - `responsive 要素をpush,pull` 
 - `画像クリックで拡大` .materialboxed jq記入
 
+## 19. Parallaxes
+
+- `parallax` parallax-container, parallax, jq記入
+
