@@ -26,3 +26,8 @@
 - `tabs` ul.tabs > li.tab*タブ数 > リンク先id指定
 - `タブ開閉` jq記入
 
+## 21. Forms#1
+
+- `form` .input-field > input > label
+- `アイコン先頭につけるには`　prefix
+
