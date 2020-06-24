@@ -1,7 +1,5 @@
 # Materialize Tutorial - The Net Ninja
 
----
-
 ## 17. Creating the Header
 
 - `navbar`  nav-wrapper
@@ -44,3 +42,10 @@
 - `tooltip` .tooltipped / data-tooltip="表示させたい文章" / jq記入
 - `fontawesome` 書き方確認
 
+## 25. scrollSpy
+
+- `scrollSpy` 移動先に .scrollspy / jq注意 $('.scrollspy').scrollSpy() キャメルケース
+
+---
+
+![img](./assets/PhotoNinja.png)
