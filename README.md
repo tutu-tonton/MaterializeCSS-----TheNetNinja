@@ -2,7 +2,10 @@
 
 ---
 
-## 2 Setting Up
+## 17. Creating the Header
 
-- 初期設定。 minifiedCSS&JS, GoogleIconFont 読み込み
+- `navbar`  nav-wrapper
+- `ロゴ`  brand-logo
+- `navmenuメイン`  作り方
+- `mobileMenu`  sidenav, sidenav-trigger, jq書き方
 
